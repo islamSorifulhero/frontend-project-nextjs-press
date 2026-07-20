@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
 
-const HomePage = () => {
+export default async function HomePage() {
   return (
     <div>
       Hello, News.js!
@@ -10,5 +10,3 @@ const HomePage = () => {
     </div>
   )
 }
-
-export default HomePage

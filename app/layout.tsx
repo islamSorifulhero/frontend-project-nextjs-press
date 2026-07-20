@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { Toaster } from "sonner";
 import "./globals.css";
 import LoginPage from "./(authGroup)/login/page";
-import { Navbar } from "@/components/ui/shared/navbar";
+import { Navbar } from "@/components/shared/navbar";
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
